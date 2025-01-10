@@ -25,9 +25,8 @@ jobs:
 
     - name: Build Solution (x64)
       run: msbuild "-p:Configuration=Release;Platform=x64;CI_VERSION=${{ github.ref_name }}" SecureUxTheme.sln
-    #- name: Build Solution (ARM64)
-      #run: msbuild "-p:Configuration=Release;Platform=ARM64;CI_VERSION=${{ github.ref_name }}" SecureUxTheme.sln
-      # Win32 built last
+    - name: Build Solution (ARM64)
+      run: msbuild "-p:Configuration=Release;Platform=ARM64;CI_VERSION=${{ github.ref_name }}" SecureUxTheme.sln
     - name: Build Solution (Win32)
       run: msbuild "-p:Configuration=Release;Platform=Win32;CI_VERSION=${{ github.ref_name }}" SecureUxTheme.sln
 
