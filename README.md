@@ -1,6 +1,6 @@
 # SecureUxTheme
 
-![Downloads](https://img.shields.io/github/downloads/namazso/SecureUxTheme/total) ![GitHub Version](https://img.shields.io/github/v/release/namazso/SecureUxTheme) ![Scoop Version](https://img.shields.io/scoop/v/secureuxtheme?bucket=extras)
+![License](https://img.shields.io/github/license/namazso/SecureUxTheme) ![Downloads](https://img.shields.io/github/downloads/namazso/SecureUxTheme/total) ![GitHub Version](https://img.shields.io/github/v/release/namazso/SecureUxTheme) ![Scoop Version](https://img.shields.io/scoop/v/secureuxtheme?bucket=extras)
 
 ## About
 
@@ -31,7 +31,7 @@ Styles must still have a format-wise valid signature appended, it is just not ve
 
 ## Download
 
-[Latest release](https://github.com/namazso/SecureUxTheme/releases/latest/)
+[Latest release](https://github.com/namazso/SecureUxTheme/releases/latest/download/ThemeTool.exe)
 
 [Development builds](https://github.com/namazso/SecureUxTheme/actions)
 
@@ -45,7 +45,7 @@ scoop install secureuxtheme
 
 Locking Windows makes LogonUI reset certain colors and ignore the currently set style. This tool can fix this problem. A picture comparison showing the Task Manager opened after locking Windows without and with the fix can be seen here:
 
-![LogonUI problem](https://github.com/user-attachments/assets/dddd3b87-a507-4d8d-bea7-5ac1bb4b8023)
+![LogonUI problem](resources/logonui_comparison.png)
 
 Do note this feature might mess up some high contrast theme features when locking.
 
@@ -53,12 +53,12 @@ Do note this feature might mess up some high contrast theme features when lockin
 
 Program:
 
-![ThemeTool Screenshot](https://github.com/user-attachments/assets/44d007ad-fe4e-4e34-b4bc-c8726670a15b)
+![ThemeTool Screenshot](resources/screenshot_themetool.png)
 
 This is only a tool for enabling custom themes, no actual visual changes will be made.
 Regardless, here's a cool theme for illustration:
 
-![Screenshot](https://github.com/user-attachments/assets/2c0301f2-8392-426d-9b19-bb29500a0eea)
+![Screenshot](resources/screenshot.png)
 
 [Theme used](https://www.deviantart.com/niivu/art/10-Pro-Edition-802720222)
 
