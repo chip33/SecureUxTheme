@@ -59,8 +59,8 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: ThemeTool.exe
-          name: Release ${{ steps.get_version.outputs.version }}
+          name: Release
           token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
-          generate_release_notes: true
+          generate_release_notes: false
           draft: false
           prerelease: false
