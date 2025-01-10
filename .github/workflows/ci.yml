@@ -43,13 +43,21 @@ jobs:
         path: |
           .\bin\Release\Win32\ThemeTool.exe
           .\bin\Release\Win32\ThemeTool.pdb
-    - name: Create Release
-      id: create_release
-      uses: comnoco/create-release@v2
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
-      with:
-        tag_name: ${{ github.ref }}
-        release_name: Release ${{ github.ref }}
-        draft: false
-        prerelease: false
+          
+  release:
+    needs: build
+    runs-on: windows-latest
+    if: startsWith(github.ref, 'refs/tags/v')
+
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: ThemeTool
+      - name: Get tag version
+        id: get_version
+        uses: battila7/get-version-action@v2
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: ThemeTool.exe
+          name: Release ${{ steps.get_version.outputs.version }}
