@@ -60,3 +60,4 @@ jobs:
         with:
           files: ThemeTool.exe
           name: Release ${{ steps.get_version.outputs.version }}
+#
