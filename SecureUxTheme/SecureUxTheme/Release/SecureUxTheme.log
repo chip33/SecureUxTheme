@@ -1,0 +1,95 @@
+﻿  avrf.cpp
+  dllmain.cpp
+  install.cpp
+C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeLib\install.cpp(33,10): error C1083: Cannot open include file: 'SecureUxTheme.dll.h': No such file or directory
+  signature.cpp
+  theme.cpp
+  main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\string_view(12): warning STL4038: The contents of <string_view> are available only with C++17 or later.
+C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\utl.h(33,11): error C2664: 'int vswprintf_s(wchar_t *const ,const size_t,const wchar_t *const ,va_list)': cannot convert argument 1 from 'const _Elem *' to 'wchar_t *const '
+C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\utl.h(33,11): error C2664:         with
+C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\utl.h(33,11): error C2664:         [
+C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\utl.h(33,11): error C2664:             _Elem=wchar_t
+C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\utl.h(33,11): error C2664:         ]
+  (compiling source file '../../ThemeTool/main.cpp')
+      C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\utl.h(33,31):
+      Conversion loses qualifiers
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(1268,41):
+      see declaration of 'vswprintf_s'
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(1284,5):
+      could be 'int vswprintf_s(wchar_t (&)[_Size],const wchar_t *,va_list) throw()'
+          C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\utl.h(33,11):
+          'int vswprintf_s(wchar_t (&)[_Size],const wchar_t *,va_list) throw()': expects 3 arguments - 4 provided
+      C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\utl.h(33,11):
+      while trying to match the argument list '(const _Elem *, unsigned int, const wchar_t *, va_list)'
+          with
+          [
+              _Elem=wchar_t
+          ]
+  
+  MainDialog.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\string_view(12): warning STL4038: The contents of <string_view> are available only with C++17 or later.
+C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\utl.h(33,11): error C2664: 'int vswprintf_s(wchar_t *const ,const size_t,const wchar_t *const ,va_list)': cannot convert argument 1 from 'const _Elem *' to 'wchar_t *const '
+C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\utl.h(33,11): error C2664:         with
+C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\utl.h(33,11): error C2664:         [
+C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\utl.h(33,11): error C2664:             _Elem=wchar_t
+C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\utl.h(33,11): error C2664:         ]
+  (compiling source file '../../ThemeTool/MainDialog.cpp')
+      C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\utl.h(33,31):
+      Conversion loses qualifiers
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(1268,41):
+      see declaration of 'vswprintf_s'
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(1284,5):
+      could be 'int vswprintf_s(wchar_t (&)[_Size],const wchar_t *,va_list) throw()'
+          C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\utl.h(33,11):
+          'int vswprintf_s(wchar_t (&)[_Size],const wchar_t *,va_list) throw()': expects 3 arguments - 4 provided
+      C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\utl.h(33,11):
+      while trying to match the argument list '(const _Elem *, unsigned int, const wchar_t *, va_list)'
+          with
+          [
+              _Elem=wchar_t
+          ]
+  
+C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\MainDialog.cpp(63,14): error C2664: 'int GetWindowTextW(HWND,LPWSTR,int)': cannot convert argument 2 from 'const _Elem *' to 'LPWSTR'
+C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\MainDialog.cpp(63,14): error C2664:         with
+C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\MainDialog.cpp(63,14): error C2664:         [
+C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\MainDialog.cpp(63,14): error C2664:             _Elem=wchar_t
+C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\MainDialog.cpp(63,14): error C2664:         ]
+      C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\MainDialog.cpp(63,43):
+      Conversion loses qualifiers
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winuser.h(8992,1):
+      see declaration of 'GetWindowTextW'
+      C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\MainDialog.cpp(63,14):
+      while trying to match the argument list '(HWND, const _Elem *, int)'
+          with
+          [
+              _Elem=wchar_t
+          ]
+  
+C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\MainDialog.cpp(201,19): error C2146: syntax error: missing ')' before identifier 'CI_VERSION'
+C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\MainDialog.cpp(201,19): error C2146: syntax error: missing ';' before identifier 'CI_VERSION'
+C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\MainDialog.cpp(201,29): error C2059: syntax error: ')'
+C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\MainDialog.cpp(201,19): error C2065: 'CI_VERSION': undeclared identifier
+  utl.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\string_view(12): warning STL4038: The contents of <string_view> are available only with C++17 or later.
+C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\utl.h(33,11): error C2664: 'int vswprintf_s(wchar_t *const ,const size_t,const wchar_t *const ,va_list)': cannot convert argument 1 from 'const _Elem *' to 'wchar_t *const '
+C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\utl.h(33,11): error C2664:         with
+C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\utl.h(33,11): error C2664:         [
+C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\utl.h(33,11): error C2664:             _Elem=wchar_t
+C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\utl.h(33,11): error C2664:         ]
+  (compiling source file '../../ThemeTool/utl.cpp')
+      C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\utl.h(33,31):
+      Conversion loses qualifiers
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(1268,41):
+      see declaration of 'vswprintf_s'
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(1284,5):
+      could be 'int vswprintf_s(wchar_t (&)[_Size],const wchar_t *,va_list) throw()'
+          C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\utl.h(33,11):
+          'int vswprintf_s(wchar_t (&)[_Size],const wchar_t *,va_list) throw()': expects 3 arguments - 4 provided
+      C:\Users\chipm\Documents\GitHub\SecureUxTheme\ThemeTool\utl.h(33,11):
+      while trying to match the argument list '(const _Elem *, unsigned int, const wchar_t *, va_list)'
+          with
+          [
+              _Elem=wchar_t
+          ]
+  
