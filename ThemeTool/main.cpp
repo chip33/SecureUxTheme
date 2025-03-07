@@ -89,12 +89,13 @@ int APIENTRY wWinMain(
     return EXIT_FAILURE;
   }
 
-  MessageBoxW(
-    nullptr,
-    L"This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.",
-    L"Warranty disclaimer",
-    MB_OK | MB_ICONWARNING
-  );
+  // Remove the warranty disclaimer message box
+  // MessageBoxW(
+    // nullptr,
+    // L"This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.",
+    // L"Warranty disclaimer",
+    // MB_OK | MB_ICONWARNING
+  // );
 
   INITCOMMONCONTROLSEX iccex{
     sizeof(INITCOMMONCONTROLSEX),
