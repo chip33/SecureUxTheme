@@ -438,7 +438,7 @@ The error encountered was: %s.
 Do you want to continue?)"),
         !_is_elevated
           ? ESTRt(L"Try executing the tool as administrator.")
-          : ESTRt(L"It seems like we're already elevated. Consider submitting a but report."),
+          : ESTRt(L"It seems like we're already elevated. Consider submitting a bug report."),
         utl::ErrorToString(fix_result).c_str()
       );
 
